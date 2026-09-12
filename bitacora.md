@@ -13,6 +13,6 @@
 - Ejemplo: Leí la letra del ejercicio 1. Primera idea: ... pero la restricción de
   complejidad pide ..., así que ...
 
-## AAAA-MM-DD — En conjunto
-- Ejemplo: Implementamos ... Bug: ... Lo corregimos ...
-- Pasan los casos de prueba 1 a 4 del ejercicio 1.
+## 2026-12-9— En conjunto
+- Implementamos el ejercicio 1 completo. Trabajamos por google meet y live share de vscode por apróximadamente 1 hora y media. Luego de leer la letra y entender el ejercicio, buscamos un template de AVL en las guías y dimos con el link de geeksforgeeks en las ppts de AVL, de ahí tomamos el template completo de un AVL de tipo Int y lo volvimos genérico guíandonos también por el ejemplo en un repositorio del profesor Francisco Bouza. 
+Con esto pudimos realizar el ejercicio entero, pero a la hora de correrlo contra los tests dados, la mitad fallaba. No lograbamos encontrar el error, por lo que le consultamos a la IA (extensión Claude Code para vscode) y el problema resultó ser porque los tests utilizaban numeros de prueba muy grandes, mayores a los soportados por Int, por lo que lo correcto era cambiar el tipo de avl y variables a "long long". Con este cambio pasaron todos los casos de prueba y pusheamos el ejercicio al repo.
